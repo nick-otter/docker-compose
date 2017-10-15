@@ -1,5 +1,5 @@
 from flask import Flask
-from redis import redis
+from redis import Redis
 
 app = Flask(_name_)
 
