@@ -1,7 +1,7 @@
 from flask import Flask
 from redis import Redis
 
-app = Flask(_name_)
+app = Flask(__name__)
 
 # Redis is the hostname of the redis container on the application's network
 # 6379 is the default port
